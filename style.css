@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    color: rgb(135, 170, 234);
+    font-weight: 800;
+}
+.nav-link:hover{
+   color: rgb(135, 170, 234);
+   font-weight: bold;
+}
+
+/* home-div */
+.home-div{
+    background-color: rgb(45,45,45);
+    height: 90vh;
+}
+#profile-pic{
+    height: 350px;
+    width: 350px;
+    border: 15px solid rgb(135, 170, 234);
+    border-radius: 50%;
+    display: block;
+    margin: 15vh auto;
+}
+.home-text{
+    margin-top: 20vh;
+    color: white;
+}
+.home-text h1{
+    font-size: 55px;
+}
+#name{
+    color: rgb(135, 170, 234);
+}
+.home-text button{
+    padding: 10px 25px;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(135, 170, 234);
+}
+.home-text button:hover{
+    color: black;
+}
+
+/*  about section  */
+#about{
+    background-color: rgb(178, 178, 178);
+    padding: 20px 10%;
+    color: rgb(45, 45, 45);
+}
+#about button{
+    color: white;
+    background-color: rgb(135, 170, 234);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    margin-top: 30px;
+}
+#about button:hover{
+    color: black;
+}
+
+/* skill section */
+#skill{
+    background-color: rgb(45, 45, 45);
+    padding: 40px 0px 35px;
+    color: white;
+}
+#skill span{
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+}
+#skill .col-sm-12{
+    color: white;
+    border-radius: 8px;
+}
+.html{
+    background-color: rgb(255, 69, 0);
+}
+.css{
+    background-color: rgb(100, 149, 237);
+}
+.javascript{
+    background-color: rgb(243, 243, 4);
+}
+.bootstrap{
+    background-color: rgb(91, 7, 151);
+}
+.design{
+    background-color: rgb(26, 198, 26);
+}
+.ui{
+    background-color: rgb(127, 255, 227);
+}
+
+/* project section */
+#project{
+    padding: 20px 5% 10px;
+    background-color: rgb(178, 178, 178);
+    color: rgb(45, 45, 45);
+}
+.pro-head{
+    padding: 20px 0px;
+}
+#project a{
+    color: black;
+    text-decoration: none;
+}
+#project a:hover{
+    text-decoration: underline;
+}
+#calc-img{
+    height: 127px;
+    width: 100%;
+}
+#project img{
+    border-radius: 5px;
+}
+#project img:hover{
+    filter: blur(1px);
+}
+
+/* responsive section */
+@media screen and (max-width: 576px){
+    .home-div{
+        height: auto;
+    }
+    #profile-pic{
+        height: 300px;
+        width: 300px;
+        margin: 6vh auto 2vh;
+    }
+    .home-text{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .home-text h1{
+        font-size: 42px
+    }
+}
